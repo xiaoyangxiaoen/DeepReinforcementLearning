@@ -80,8 +80,6 @@ if __name__ == '__main__':
         epsilon=0.1)
 
 
-
-
     # plot rewards with time step:
     timeSteps = [i + 1 for i in range(len(avgRewardsGreedy))]
     plt.ylabel("AvgRewards")

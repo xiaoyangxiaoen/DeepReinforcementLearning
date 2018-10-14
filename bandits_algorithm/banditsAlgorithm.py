@@ -16,7 +16,6 @@ class BanditsAlgorithm:
             self.Q[i] = 0.0
             self.N[i] = 0.0
 
-
     def chooseAction(self):         # must be overide
         """
         choose the best action for current time step
@@ -44,8 +43,6 @@ class BanditsAlgorithm:
         self.Q[bestAction] = self.Q[bestAction] + (reward - self.Q[bestAction]) / self.N[bestAction]
         self.rewardPerStep.append(reward)
         self.numSteps += 1
-
-
 
 
 class GreedyBanditsAlgorithm(BanditsAlgorithm):
@@ -111,6 +108,6 @@ class UpperConfidenceBoundBanditsAlgorithm(BanditsAlgorithm):
 
 
 
-# gradient-bandit
+# gradient-bandit, to be continued
 
-# optimistic-initial-value
+# optimistic-initial-value, to be continued
