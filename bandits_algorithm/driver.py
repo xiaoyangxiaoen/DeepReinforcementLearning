@@ -1,5 +1,4 @@
 import gym
-import gym_bandits
 from bandits_algorithm import banditsAlgorithm
 from matplotlib import pyplot as plt
 
