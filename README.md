@@ -7,7 +7,8 @@ Self-Chanllenge for Deep Reinforcement Learning
 * Basic level of Python, PyTorch, TensorFlow  
 * Machine Learning  
 * Basic knowledge in Deep Learning (CNN, RNN and so on) 
-* Chapters following are from TEXTBOOK: Reinforcement Learning: An Introduction Second Edition.   
+* Chapters following are from TEXTBOOK: Reinforcement Learning: An Introduction Second Edition.  
+* Contact: minisheep.shaun@gmail.com 
 
 ## Week 1 - Introduction  
 ---  
